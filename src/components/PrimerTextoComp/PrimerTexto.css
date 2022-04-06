@@ -1,0 +1,29 @@
+.primer-texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 7vh 0;
+}
+.primer-texto p{
+    font-weight: 700;
+}
+.primer-texto span{
+    color: #ED1B24;
+}
+.middleware-p{
+    margin: 3vh 0;
+}
+.dragon-fondo{
+    z-index: -1;
+    opacity: 0.1;
+    position: absolute;
+    width: 40%;
+  }
+  @media only screen and (max-width: 580px){
+    .dragon-fondo{
+        opacity: 0.2;
+        width: 60%;
+    }
+  }

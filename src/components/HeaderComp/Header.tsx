@@ -1,4 +1,4 @@
-import React,{ useState } from "react";
+import { useState } from "react";
 import "./Header.css";
 const Header = (): JSX.Element => {
   const [modal, setModal] = useState<boolean>(false);
@@ -24,7 +24,7 @@ const Header = (): JSX.Element => {
         </nav>
         <div className="headerResponsive" onClick={() => setModal(!modal)}>
           <span className={modal ? 'negativo' : ''}></span>
-          {modal ? null : <span></span>}
+          <span className={modal ? 'invisible' : ''}></span>
           <span className={modal ? 'positivo' : ''}></span>
         </div>
       </header>
