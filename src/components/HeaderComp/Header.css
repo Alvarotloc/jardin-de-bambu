@@ -1,0 +1,171 @@
+header{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid;
+}
+header nav{
+    position: absolute;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.4s;
+}
+nav a:hover{
+    color: #ED1B24;
+}
+#logo{
+   height: 15vh;
+   z-index: 1;
+}
+.centroDer{
+    margin: 0 3vw;
+}
+.centroIzq{
+    margin: 0 3vw;
+}
+.nav-derecha{
+    right: 2vw;
+}
+.nav-izquierda{
+    left: 5vw;
+    display: flex;
+}
+.nav-derecha a{
+    border: 5px solid;
+    padding: 5px 10px;
+    text-align: center;
+    align-content: center;
+    font-size: 1rem;
+}
+@media only screen and (max-width: 1090px){
+    nav a{
+        font-size: 0.8rem;
+    }
+    #logo{
+        height: 12vh;
+    }
+    .nav-izquierda{
+        left: 8vw;
+    }
+    .nav-derecha a{
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .nav-izquierda{
+        flex-direction: column;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: white;
+        z-index: 1;
+        top: 0;
+        left: -100vw;
+    }
+    .activa{
+        animation: modal 1s forwards;
+    }
+    .nav-izquierda a{
+        font-size: 1.8rem;
+        margin-left: 8vw;
+    }
+    .nav-izquierda a:first-child{
+        margin-top: 20vh;
+    }
+    .nav-derecha{
+        right: 8vw;
+    }
+    .nav-derecha a{
+        border: none;
+        font-size: 1.4rem;
+    }
+    a span{
+        display: none;
+    }
+    .centroIzq{
+        margin: 50px 0;
+    }
+    .headerResponsive{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 8vw;
+        z-index: 1;
+    }
+    .headerResponsive span{
+        width: 3vw;
+        padding: 5px 5px 0;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color: black;
+    }
+    .headerResponsive span:nth-child(2){
+        margin: 3px 0;
+    }
+    .negativo{
+        position: relative;
+        animation: negativ 0.4s forwards;
+    }
+    .positivo{
+        animation: positiv 0.4s forwards;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    header{
+        height: 15vh;
+    }
+    #logo{
+        height: 10vh;
+    }
+    .nav-derecha{
+        right: 4vw;
+    }
+    .nav-derecha a{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    #logo{
+        height: 8vh;
+    }
+    .nav-derecha a{
+        font-size: 0.9rem;
+    }
+}
+
+
+@keyframes negativ{
+    0%{
+        transform: rotate(0deg);
+        top: 0px;
+    }
+    100%{
+        transform: rotate(-45deg);
+        top: 10px;
+    }
+}
+@keyframes positiv{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(45deg);
+    }
+}
+@keyframes modal {
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: 0;
+    }
+}
