@@ -1,6 +1,7 @@
 import Header from './components/HeaderComp/Header';
 import PrimerTexto from './components/PrimerTextoComp/PrimerTexto';
 import Platos from './components/PlatosComp/Platos';
+import Formulario from './components/FormularioComp/Formulario';
 
 const App = ():JSX.Element => {
   return (
@@ -9,6 +10,7 @@ const App = ():JSX.Element => {
       <img src='../images/ImagenTopopt.png' className='imagen-top' alt='Imagen comida asiatica'/>
       <PrimerTexto />
       <Platos />
+      <Formulario />
     </>
   )
 }

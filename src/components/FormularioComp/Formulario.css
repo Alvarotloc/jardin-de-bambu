@@ -1,0 +1,73 @@
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form p{
+    font-size: 0.8rem;
+    margin-top:10px ;
+}
+label{
+    font-size: 0.8rem;
+}
+.error-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2vh 0;
+    height: 7vh;
+    padding: 0 2vw;
+    background-color: #ff333d;
+    display: none;
+}
+.error{
+    display: block;
+}
+.label-check{
+    margin: 10px 0;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+.contacto-titulo{
+    font-size: 2rem;
+    text-align: center;
+    margin: 5vh 0 1vh 0;
+}
+.contenedor-formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+#nombre,#movil,#email,#mensaje{
+    appearance: none;
+    border: none;
+    margin: 5px 0 10px 0;
+    width: 40vw;
+    padding: 10px;
+    border-radius: 5px;
+}
+#mensaje{
+    height: 7vh;
+}
+input[type='checkbox']{
+    margin-right: 5px;
+}
+input[type='submit']{
+    margin: 2vh 0;
+    display: block;
+    padding: 1vh 5vw;
+    background-color:#ED1B24;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.4s;
+    appearance: none;
+    border: none;
+}
+input[type='submit']:hover{
+    background-color: #c70710;
+}

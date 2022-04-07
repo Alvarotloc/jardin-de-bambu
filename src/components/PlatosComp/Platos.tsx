@@ -18,7 +18,7 @@ const Platos = (): JSX.Element => {
         </div>
       </div>
       <div className="cuadricula">
-        {array.map((comida:string) => <ImagenProducto texto={comida}/>)}
+        {array.map((comida:string) => <ImagenProducto key={comida} texto={comida}/>)}
       </div>
       <button className="ver-mas visible">Ver más</button>
     </>
