@@ -1,0 +1,19 @@
+.texto-informativo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.texto-informativo h2{
+    font-size: 2.3rem;
+}
+.texto-informativo span{
+    color: #ED1B24;
+}
+.texto-informativo p{
+    font-weight: 700;
+    margin: 2vh 0;
+    text-align: left;
+}

@@ -1,0 +1,22 @@
+.principal{
+    height: 53vh;
+    width: 30vw;
+    border-radius: 0 50% 0 50%;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0, 0.6);
+}
+.secundaria{
+    position: absolute;
+    height: 16vh;
+    bottom: 0;
+    left: 0;
+}
+.contenedor-imgs{
+    position: relative;
+}
+#derecha{
+    border-radius: 50% 0 50% 0;
+    box-shadow: -2px 5px 10px 3px rgba(0, 0, 0, 0.6);
+}
+#img-relativa{
+    left: calc(100% - 11vw);
+}

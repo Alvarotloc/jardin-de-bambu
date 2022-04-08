@@ -11,3 +11,10 @@
 .imagen-top{
   width: 100%;
 }
+.valores,.equipo{
+  margin-top: 15vh;
+  display: flex;
+}
+.equipo{
+  margin-bottom: 15vh;
+}
