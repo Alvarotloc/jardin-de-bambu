@@ -10,7 +10,7 @@ const App = ():JSX.Element => {
   return (
     <>
       <Header />
-      <img src='../images/ImagenTopopt.png' className='imagen-top' alt='Imagen comida asiatica'/>
+      <img src='../images/ImagenTopopt.webp' className='imagen-top' alt='Imagen comida asiatica'/>
       <PrimerTexto />
       <Platos />
       <div className="valores">

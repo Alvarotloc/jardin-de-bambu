@@ -12,7 +12,7 @@ const Header = (): JSX.Element => {
           </a>
           <a href="#">TODAY`S MENU</a>
         </nav>
-        <img src="../images/Logo.png" alt="Logo de la empresa" id="logo" />
+        <img src="../images/Logo.webp" alt="Logo de la empresa" id="logo" />
         <nav className="nav-derecha">
           <a href="#">
             M <span>TAKEAWAY</span>

@@ -9,11 +9,11 @@ const Platos = (): JSX.Element => {
       <h2 className="platos">NUESTROS PLATOS</h2>
       <div className="contenedor-platos">
         <div className="eleccion-platos">
-          <Icono source="../images/Soup.png" texto="Sopas" />
-          <Icono source="../images/Rice.png" texto="Arroces" />
+          <Icono source="../images/Soup.webp" texto="Sopas" />
+          <Icono source="../images/Rice.webp" texto="Arroces" />
           <div className="separador">
-            <Icono source="../images/Prawn.png" texto="Mariscos" />
-            <Icono source="../images/Chicken.png" texto="Carnes" />
+            <Icono source="../images/Prawn.webp" texto="Mariscos" />
+            <Icono source="../images/Chicken.webp" texto="Carnes" />
           </div>
         </div>
       </div>
