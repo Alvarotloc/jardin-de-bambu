@@ -1,0 +1,71 @@
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer p{
+    font-size: 0.9rem;
+}
+iframe{
+    width:600; 
+    height:450;
+     border: 0;
+     margin-top: 4vh;
+}
+.contenido-footer{
+    margin-top: 3vh;
+    display: flex;
+    padding: 3vh 0 1vh 0;
+    justify-content: space-around;
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15vw;
+}
+.info-general{
+    text-align: center;
+    margin: 3vh 0;
+    font-size: 0.9rem;
+}
+#logo-peque{
+    height: 15vh;
+    width: 9vw;
+}
+.footer-legales{
+    display: flex;
+    margin: 2vh 0;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer-legales p{
+    font-weight: bolder;
+}
+.legales{
+    margin-left: 3vw;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.legales span{
+    cursor: pointer;
+}
+.info-trozo{
+    margin: 3vh 0;
+}
+@media only screen and (max-width: 900px){
+    .contenido-footer{
+        flex-wrap: wrap;
+    }
+    #logo-peque{
+        height: 10vh;
+    }
+}

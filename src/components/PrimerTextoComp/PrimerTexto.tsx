@@ -16,7 +16,7 @@ const PrimerTexto = (): JSX.Element => {
         Dicen que el gusto recuerda mucho mejor que la vista, y en esta cocina
         el <span>paladar es el rey</span>.
       </p>
-      <img src='../images/DragonFondo.png' alt="Imagen de dragon decorativa" className='dragon-fondo'/>
+      <img src='../images/DragonFondo.webp' alt="Imagen de dragon decorativa" className='dragon-fondo'/>
     </div>
   );
 };

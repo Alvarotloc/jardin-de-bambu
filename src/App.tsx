@@ -5,6 +5,7 @@ import Formulario from './components/FormularioComp/Formulario';
 import ImagenInf from './components/ImagenInfComp/ImagenInf';
 import TextoInf from './components/TextoInfComp/TextoInf';
 import TextoInfIzq from './components/TextoInfComp/TextoInfIzq';
+import Footer from './components/FooterComp/Footer';
 
 const App = ():JSX.Element => {
   return (
@@ -22,6 +23,7 @@ const App = ():JSX.Element => {
         <ImagenInf side=''/>
       </div>
       <Formulario />
+      <Footer />
     </>
   )
 }

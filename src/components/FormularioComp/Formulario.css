@@ -15,8 +15,7 @@ label{
     align-items: center;
     text-align: center;
     margin: 2vh 0;
-    height: 7vh;
-    padding: 0 2vw;
+    padding: 2vh 2vw;
     background-color: #ff333d;
     display: none;
 }
@@ -56,9 +55,11 @@ label{
 }
 input[type='checkbox']{
     margin-right: 5px;
+    cursor: pointer;
 }
 input[type='submit']{
-    margin: 2vh 0;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
     display: block;
     padding: 1vh 5vw;
     background-color:#ED1B24;
@@ -67,6 +68,7 @@ input[type='submit']{
     transition: background-color 0.4s;
     appearance: none;
     border: none;
+    cursor: pointer;
 }
 input[type='submit']:hover{
     background-color: #c70710;
