@@ -17,3 +17,14 @@
     margin: 2vh 0;
     text-align: left;
 }
+@media only screen and (max-width: 900px){
+    .texto-informativo{
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        width: 90%;
+    }
+    .texto-informativo p{
+        text-align: center;
+    }
+  }
